@@ -55,8 +55,17 @@ border: 1px solid tomato;
     width: 100%;
     display: block;
     padding-top: 60px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 32px;
+}
+@media screen and (min-width: 768px) {
+    .slider-foto {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .slider-foto {
+        margin-bottom: 16px;
+    }
 }
 .slider-foto img{
     margin-right: auto;
@@ -119,8 +128,13 @@ color: #000000;
     margin: 0 5px;
     border-radius: 5px;
 }
-.test{
+.slider-div{
     margin-bottom: 16px;
+}
+@media screen and (min-width: 768px)  {
+    .slider-div {
+        margin-bottom: 32px;
+    }
 }
 .slider-sity{
     font-weight: 500;
